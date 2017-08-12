@@ -6,7 +6,7 @@ A simple command line tool to test connection between Qt client applications and
 <span style="color: #008000;">OpenSSL 1.0.x or above the for SSL feature</span></span><p>
 
 How to use it:
-1. I simply run the mysql_conn_test_database.sql SQL script file to create a test database on the remote server.
+1. Simply run the mysql_conn_test_database.sql SQL script file to create a test database on the remote server.
 2. Set the hostname or IP, port number, username and password. You migth need to create a new database user for this purpose.
 [You will need to create SSL certificates for the database server and client in order to test SSL Feature on the MySQL Server.]
 3. If everthing is set build and run in your QtCreator.
