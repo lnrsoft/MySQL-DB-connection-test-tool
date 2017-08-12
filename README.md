@@ -7,4 +7,5 @@ Remote MySQL server version: 5.7 or above
 Qt version: Qt_5_7_1 or above
 
 MySQL DB connection test tool was created and written by Roland Ihasz and it is licensed under the GNU General Public License (GPL) Version 2 or above.
+
 https://lnrsoft.com
