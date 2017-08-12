@@ -40,8 +40,7 @@ int main(int argc, char *argv[]) {
             QSqlRecord rec2 = query.record();
             QSqlRecord rec3 = query.record();
             QSqlRecord rec4 = query.record();
-            QSqlRecord rec5 = query.record();
-            
+            QSqlRecord rec5 = query.record();            
             qDebug() << "NUMBER OF ROWS: " << query.size();   // Return number of rows
             int productCode1 = rec1.indexOf("ID");
             int productCode2 = rec2.indexOf("x1");
