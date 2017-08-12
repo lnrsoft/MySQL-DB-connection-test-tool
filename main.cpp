@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
         //    "SSL_CA=/Users/lnrsoft/repository/mysql_db_conn_test/ca-cert.pem;"
         //    "SSL_CIPHER=DHE-RSA-AES256-SHA;");    
         //----------Additional-SSL-Feature-for-secure-database-connection----------
+        qDebug();   
         if(!db.open()) {
             qDebug() << "DATABASE CONNECTION UNSUCCESSFUL, ERROR: " << db.lastError().text();
         }
