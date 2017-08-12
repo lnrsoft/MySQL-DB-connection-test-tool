@@ -12,10 +12,10 @@ int main(int argc, char *argv[]) {
     {
         QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
         db.setHostName("192.168.1.194");        // host or ip name
-        db.setPort(3300);                       // port number (default mysql port 3306)
+        db.setPort(3306);                       // port number 
         db.setDatabaseName("mysql_conn_test");  // db name
-        db.setUserName("roland");               // db username
-        db.setPassword("azx428");               // db password
+        db.setUserName("your_username");        // db username
+        db.setPassword("your_password");        // db password
         //----------Additional-SSL-Feature-for-secure-database-connection----------
         //  db.setConnectOptions(
         //    "SSL_KEY=/Users/lnrsoft/repository/mysql_db_conn_test/client-key.pem;"
@@ -41,6 +41,7 @@ int main(int argc, char *argv[]) {
             QSqlRecord rec3 = query.record();
             QSqlRecord rec4 = query.record();
             QSqlRecord rec5 = query.record();
+            
             qDebug() << "NUMBER OF ROWS: " << query.size();   // Return number of rows
             int productCode1 = rec1.indexOf("ID");
             int productCode2 = rec2.indexOf("x1");
