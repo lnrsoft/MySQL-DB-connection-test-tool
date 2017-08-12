@@ -6,6 +6,16 @@ Software prerequisites:
 Remote MySQL server version: 5.7 or above
 Qt version: Qt_5_7_1 or above
 
+How to use it:
+1. I simply run the mysql_conn_test_database.sql SQL script file to create a test database on the remote server.
+2. Set the hostname or IP, port number, username and password. You migth need to create a new database user for this purpose.
+[You will need to create SSL certificates for the database server and client in order to test SSL Feature on the MySQL Server.]
+3. If everthing is set build and run in your QtCreator.
+
+If everything goes well you will recieve the following feedback from your terminal:
+
+
+
 MySQL DB connection test tool was created and written by Roland Ihasz and it is licensed under the GNU General Public License (GPL) Version 2 or above.
 
 https://lnrsoft.com
