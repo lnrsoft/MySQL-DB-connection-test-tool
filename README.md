@@ -1,8 +1,8 @@
 A simple command line tool to test connection between Qt client applications and a remote Mysql Server. The code includes Secure Sockets Layer (SSL) support to test secure connection.
 
-<u>Software prerequisites:</u>
-<span style="color: #008000;">Remote MySQL server version: 5.7 or above</span><p>
-<span style="color: #008000;">Qt version: Qt_5_7_1 or above<p>
+<u>Software prerequisites:</u><br>
+<span style="color: #008000;">Remote MySQL server version: 5.7 or above</span><br>
+<span style="color: #008000;">Qt version: Qt_5_7_1 or above<br>
 <span style="color: #008000;">OpenSSL 1.0.x or above the for SSL feature</span></span><p>
 
 How to use it:
