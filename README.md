@@ -1,4 +1,4 @@
-#A simple command line tool to test connection between Qt client applications and a remote Mysql Server. The code includes Secure Sockets Layer (SSL) support to test secure connection.
+A simple command line tool to test connection between Qt client applications and a remote Mysql Server. The code includes Secure Sockets Layer (SSL) support to test secure connection.
 
 <u>Software prerequisites:</u>
 <span style="color: #008000;">Remote MySQL server version: 5.7 or above</span>
@@ -20,3 +20,5 @@ If everything goes well you will recieve the following feedback from your termin
 </center>
 
 MySQL DB connection test tool was created and written by Roland Ihasz and it is licensed under the GNU General Public License (GPL) Version 2 or above.
+
+Updated: 12-Aug-2017
