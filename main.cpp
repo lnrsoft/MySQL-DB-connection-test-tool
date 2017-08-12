@@ -16,11 +16,13 @@ int main(int argc, char *argv[]) {
         db.setDatabaseName("mysql_conn_test");  // db name
         db.setUserName("roland");               // db username
         db.setPassword("azx428");               // db password
-        db.setConnectOptions(
-            "SSL_KEY=/Users/rolandihasz/software_development/repository/mysql_db_connection_test/client-key.pem;"
-            "SSL_CERT=/Users/rolandihasz/software_development/repository/mysql_db_connection_test/client-cert.pem;"
-            "SSL_CA=/Users/rolandihasz/software_development/repository/mysql_db_connection_test/ca-cert.pem;"
-            "SSL_CIPHER=DHE-RSA-AES256-SHA;");     // use SSL connection to the server
+        //----------Additional-SSL-Feature-for-secure-database-connection----------
+        //  db.setConnectOptions(
+        //    "SSL_KEY=/Users/lnrsoft/repository/mysql_db_conn_test/client-key.pem;"
+        //    "SSL_CERT=/Users/lnrsoft/repository/mysql_db_conn_test/client-cert.pem;"
+        //    "SSL_CA=/Users/lnrsoft/repository/mysql_db_conn_test/ca-cert.pem;"
+        //    "SSL_CIPHER=DHE-RSA-AES256-SHA;");    
+        //----------Additional-SSL-Feature-for-secure-database-connection----------
         if(!db.open()) {
             qDebug() << "DATABASE CONNECTION UNSUCCESSFUL, ERROR: " << db.lastError().text();
         }
