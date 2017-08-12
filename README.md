@@ -1,4 +1,4 @@
-# MySQL DB Connection test tool
+# MySQL DB connection test tool
 
 A simple command line tool to test connection between Qt client applications and a remote Mysql Server. The code includes Secure Sockets Layer (SSL) support to test secure connection. 
 
