@@ -10,5 +10,3 @@ functioning of this software in any circumstances and is not liable for
 any damages caused by this software.
 
 August 2017
-
-Updated: 14-Aug-2017
