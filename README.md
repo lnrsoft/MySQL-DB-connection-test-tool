@@ -19,6 +19,15 @@ If everything goes well you will recieve the following feedback from your termin
 <a href="https://lnrsoft.com/wp-content/uploads/2017/08/app_output2.png"><img class="aligncenter size-full wp-image-2599" src="https://lnrsoft.com/wp-content/uploads/2017/08/app_output2.png" alt="" width="710" height="224" /></a>
 </center>
 
-MySQL DB connection test tool was created and written by Roland Ihasz and it is licensed under the GNU General Public License (GPL) Version 2 or above.
+Written by Roland Ihasz (https://lnrsoft.com)
 
-Updated: 12-Aug-2017
+You can do anything you want with this software, just don't say you wrote
+it.
+
+This software is provided "as it is".
+
+The author supplies this software to be publicly redistributed on the understanding that the author is not responsible for the correct functioning of this software in any circumstances and is not liable for any damages caused by this software.
+
+August 2017 
+
+Updated: 14-Aug-2017
