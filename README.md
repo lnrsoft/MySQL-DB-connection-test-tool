@@ -13,7 +13,7 @@ How to use it:
 
 If everything goes well you will recieve the following feedback from your terminal:
 <center>
-<a href="https://lnrsoft.com/wp-content/uploads/2017/08/app_output_double.png"><img class="aligncenter size-full wp-image-2604" src="https://lnrsoft.com/wp-content/uploads/2017/08/app_output_double.png" alt="" width="710" height="408" /></a><a href="https://lnrsoft.com/wp-content/uploads/2017/08/app_output.png">
+<img class="aligncenter size-full wp-image-2604" src="https://lnrsoft.com/wp-content/uploads/2017/08/app_output_double.png" alt="" width="710" height="408" /></a>
 </center>
 
 MySQL DB connection test tool was written by Roland Ihasz and it is free to use, modify or distribute. 
