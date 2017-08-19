@@ -1,5 +1,5 @@
-// (c)  Roland Ihasz - https://github.com/lnrsoft                                     
-
+// (c)  Roland Ihasz - https://github.com/lnrsoft
+ 
 #include <QSqlDatabase>
 #include <QApplication>
 #include <QSqlRecord>
@@ -8,7 +8,7 @@
 #include <QDebug>
 #include <QtCore>
 #include <QtSql>
-
+ 
 int main(int argc, char* argv[])
 {
     QApplication a(argc, argv);
@@ -26,12 +26,13 @@ int main(int argc, char* argv[])
         //    "SSL_CA=/Users/lnrsoft/repository/mysql_db_conn_test/ca-cert.pem;"
         //    "SSL_CIPHER=DHE-RSA-AES256-SHA;");
         //----------Additional-SSL-Feature-for-secure-database-connection----------
-        qDebug() << "";
         if(!db.open()) {
-            qDebug() << "DATABASE CONNECTION UNSUCCESSFUL, ERROR: " << db.lastError().text();
+            qDebug() << "\nDATABASE CONNECTION UNSUCCESSFUL."
+                     << "\nlastError: " << db.lastError().text() <<"\n";
+            return 0;
         }
         if(db.open()) {
-            qDebug() << "SUCCESSFULLY CONNECTED TO THE DATABASE SERVER";
+            qDebug() << "\nSUCCESSFULLY CONNECTED TO THE DATABASE SERVER.";
             QSqlQuery query(
                 "SELECT "
                 "dataTable.ID, "
@@ -62,7 +63,7 @@ int main(int argc, char* argv[])
             }
             qDebug() << "====================================================================================";
             qDebug() << "COMPLETE...";
+            return 0;
         }
     }
-    return 0;
 }
