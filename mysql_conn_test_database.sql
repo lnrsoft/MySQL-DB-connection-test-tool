@@ -1,4 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `mysql_conn_test` /*!40100 DEFAULT CHARACTER SET utf8 */;
+/*	(c)  Roland Ihasz - https://github.com/lnrsoft	*/
+
+DROP DATABASE IF EXISTS `mysql_conn_test`;
+
+CREATE DATABASE IF NOT EXISTS `mysql_conn_test` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `mysql_conn_test`;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
