@@ -16,7 +16,7 @@ If everything goes well you will recieve the following feedback from your termin
 <img class="aligncenter size-full wp-image-2604" src="https://lnrsoft.com/wp-content/uploads/2017/08/app_output_double.png" alt="" width="710" height="408" /></a>
 </center>
 
-MySQL DB connection test tool was written by Roland Ihasz and it is free to use, modify or distribute. 
+QSqlDatabase connection test tool was written by Roland Ihasz and it is free to use, modify or distribute. 
 You can do anything you want with this software, just don't say you wrote it.
 
 This software is provided "as it is".
