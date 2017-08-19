@@ -1,10 +1,13 @@
+# (c)  Roland Ihasz - https://github.com/lnrsoft                                     
+
 QT += core
 QT -= gui
 QT += sql
 QT += sql widgets
 
 CONFIG += c++11
-CONFIG -= console
+CONFIG += console          
+#CONFIG -= console      
 CONFIG -= app_bundle
 
 TEMPLATE = app
