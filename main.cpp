@@ -1,3 +1,5 @@
+// (c)  Roland Ihasz - https://github.com/lnrsoft                                     
+
 #include <QSqlDatabase>
 #include <QApplication>
 #include <QSqlRecord>
